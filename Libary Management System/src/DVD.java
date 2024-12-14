@@ -8,6 +8,20 @@ public class DVD extends LibraryItem {
         this.director = director;
     }
 
+    public  int getyearOfPublication(){
+        return yearOfPublication;
+    }
+    public void setyearOfPublication(){
+        this.yearOfPublication = yearOfPublication;
+    }
+
+    public String getdirector(){
+        return director;
+    }
+    public void setDirector(){
+        this.director = director;
+    }
+    
     @Override
     public void displayInfo(){
         super.displayInfo();
